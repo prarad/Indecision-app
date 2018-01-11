@@ -1,0 +1,17 @@
+.header {
+  background-color: darken($gray, 7.5%);
+  padding: $m-size 0;
+  color: #fff;
+}
+
+.header__title {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 2px #eee;
+}
+
+.header__subtitle {
+  font-size: $m-size;
+  font-weight: 500;
+  color: $off-green;
+}

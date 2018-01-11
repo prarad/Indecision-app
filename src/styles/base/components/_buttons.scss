@@ -1,0 +1,36 @@
+.big-button {
+  font-size: $l-size;
+  font-weight: 700;
+  padding: $m-size;
+  width: 100%;
+  margin: $m-size auto;
+  border-bottom: .5rem solid darken($btn-green, 20%);
+  background-color: $btn-green;
+  color: $off-white;
+}
+
+.big-button:disabled {
+  opacity: .5;
+}
+
+.button {
+  background-color: $btn-green;
+  border-bottom: .4rem solid darken($btn-green, 20%);
+  padding: $m-size ;
+  color: $off-white;
+  font-size: $m-size;
+  font-weight: 500;
+}
+
+.button--remove {
+  padding: 0;
+  background: none;
+  border: none;
+  color: $off-green;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .big-button {
+    margin: $l-size auto;
+  }
+}

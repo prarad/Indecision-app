@@ -1,0 +1,52 @@
+.option-box {
+  width: 100%;
+  background: lighten($gray, 10%);
+
+  .message {
+    padding: $l-size;
+    text-align: center;
+    color: $off-green;
+    border-bottom: .2rem solid darken($gray, 5%);
+  }
+}
+
+.option-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size $m-size;
+  background-color: darken($gray, 5%);
+
+  h2 {
+    color: $off-green;
+    font-size: $m-size;
+  }
+}
+
+.add-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: $m-size;
+}
+
+.add-option__input {
+  flex-grow: 1;
+  padding: $s-size;
+  margin: 0 0 $m-size 0;
+  background-color: darken($gray, 2.5%);
+  color: $off-white;
+  font-size: $m-size;
+  border: none;
+  border-bottom: solid darken($gray, 5%) .4rem;
+  outline: none;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .add-option {
+    flex-direction: row;
+  }
+
+  .add-option__input {
+    margin: 0 $m-size 0 0;
+  }
+}

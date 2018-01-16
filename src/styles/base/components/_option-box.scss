@@ -6,7 +6,11 @@
     padding: $l-size;
     text-align: center;
     color: $off-green;
-    border-bottom: .2rem solid darken($gray, 5%);
+    border-bottom: 2px solid darken($gray, 5%);
+  }
+  .error {
+    padding: $l-size $m-size 0;
+    color: $off-green;
   }
 }
 
